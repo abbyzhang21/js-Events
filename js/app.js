@@ -14,7 +14,10 @@ function moreContent(){
 /*Create a function named `lessContent` that will initiate the `Show Less` link after clicking on it.
 
 The function will hide the contents in the pargraph with the id of `less` after clicking on the `Show Less` link.*/
-
+function lessContent(){
+	var lessElem =document.getElementById('less');
+	lessElem.style.display = 'none';
+}
 
 //3. Tacocat, The Original Palindrome King
 /*Create a function named `zoom` that will increase the font size of the paragraph with the id of `biggie` after hovering your mouse over it. Increae the font size to 150%*/
